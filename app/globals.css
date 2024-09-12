@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #151c2d;
+}
+
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("https://i.ytimg.com/vi/zJKSA9SaHeA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA4Fj5B2dhZK-JTTp4HDLqvvd78Kg");
+  background-size: cover;
+  background-position: center left;
+}
